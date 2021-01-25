@@ -311,7 +311,8 @@ Rotten PR close after 30d of inactivity.
 <li>根据仓库获取所有open状态的PR：</li>
 <li>根据仓库获取所有open状态的issue:</li>
 <li>给ISSUE添加评论:</li>
-<li>给PR添加评论：</li>
+<li>给PR添加评论：<br>
+<strong>建议：增加访问的次数，使用与其他业务不同的TOKEN（减少对核心功能的影响）</strong></li>
 </ul>
 </li>
 <li>
