@@ -305,9 +305,9 @@ Rotten PR close after 30d of inactivity.
 </ul>
 </li>
 <li>
-<p>需调用的giteeAPI</p>
+<p>需调用的giteeAPI(带授权token 每天限制访问10000次)</p>
 <ul>
-<li>根据组织名获取所有仓库：<a href="https://gitee.com/api/v5/orgs/%7Borg%7D/repos">https://gitee.com/api/v5/orgs/{org}/repos</a></li>
+<li>根据组织名获取所有仓库：</li>
 <li>根据仓库获取所有open状态的PR：</li>
 <li>根据仓库获取所有open状态的issue:</li>
 <li>给ISSUE添加评论:</li>
