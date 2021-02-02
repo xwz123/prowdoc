@@ -15,7 +15,7 @@
 <li>实现方式：
 <ul>
 <li>在gitee-plugins中新建milestone插件</li>
-<li>监听issue的创建hook  检测是否设置里程碑，未设置则打上 <strong>unset-milestone</strong> 标签，并在评论区添加评论： <strong>@author You have not selected a milestone, please select a milestone.</strong> 并监听PR更新的HOOK 已设置且有 unset-milestone 移除该标签。</li>
+<li>监听issue的创建hook  检测是否设置里程碑，未设置则打上 <strong>unset-milestone</strong> 标签，并在评论区添加评论： <strong>@author You have not selected a milestone, please select a milestone.</strong></li>
 <li>提供/check-milestone 指令，手动触发检测，任何人都可以使用该指令。这里会删除标签。</li>
 </ul>
 </li>
