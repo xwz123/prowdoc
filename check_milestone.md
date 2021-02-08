@@ -32,4 +32,5 @@
 </ol>
 </li>
 </ol>
+<p>/usr/bin/prow_review_tool -t “Merge Request Hook” -p "{“action”:“update”,“action_desc”:“source_branch_changed”,“pull_request”: {“html_url”:"<a href="https://gitee.com/openeuler/openEuler-Advisor/pulls/324%22%7D%7D%22">https://gitee.com/openeuler/openEuler-Advisor/pulls/324"}}"</a></p>
 
