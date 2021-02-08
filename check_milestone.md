@@ -29,9 +29,7 @@
 <ol>
 <li>未关联里程碑，且不存在 miss/milestone标签则添加miss/milestone标签并添加评论；</li>
 <li>已关联里程碑，且存在 miss/milestone标签则移除 miss/milestone标签；</li>
-<li></li>
 </ol>
 </li>
 </ol>
-<p>/usr/bin/prow_review_tool -t “Merge Request Hook” -p "{“action”:“update”,“action_desc”:“source_branch_changed”,“pull_request”: {“html_url”:"<a href="https://gitee.com/openeuler/openEuler-Advisor/pulls/324%22%7D%7D%22">https://gitee.com/openeuler/openEuler-Advisor/pulls/324"}}"</a></p>
 
