@@ -175,7 +175,7 @@
 </thead>
 <tbody>
 <tr>
-<td>/retest指令在CI-BOT源码中未法相相关实现</td>
+<td>/retest指令在CI-BOT源码中未发现相关实现</td>
 <td>trigger插件会触发测试任务，并给出测试结果反馈；<br>并支持/retest指令触发测试任务</td>
 </tr>
 </tbody>
