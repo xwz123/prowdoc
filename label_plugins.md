@@ -4,7 +4,9 @@
 ---
 
 <h3 id="label插件">label插件</h3>
-<h4 id="功能介绍">功能介绍</h4>
+<h4 id="需求">需求</h4>
+<p>对CI-BOT [remove](kind|sig|priority）指令功能进行移植。</p>
+<h4 id="功能实现">功能实现</h4>
 <p>为issue或PR提供如下指令添加或移除标签：</p>
 
 <table>
