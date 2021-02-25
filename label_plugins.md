@@ -21,7 +21,7 @@
 </tr>
 <tr>
 <td>/[remove-](area|committee|kind|language|priority|sig|triage|wg)</td>
-<td>同sig指令</td>
+<td>同kind指令</td>
 </tr>
 <tr>
 <td>/[remove-]label</td>
