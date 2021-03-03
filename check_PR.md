@@ -6,7 +6,7 @@
 <h4 id="需求：">需求：</h4>
 <ol>
 <li>移植CI-BOT PR创建和PR源代码改变检查commit数量</li>
-<li>版本冻结期代码合入权限控制。
+<li>移植版本冻结期代码合入权限控制。
 <ul>
 <li>背景：对于openEuler 假设20.03-LTS版本近期需要发布一个release版本，管理员在openEuler/release-management/release-management.yaml下设置了对openEuler组织下所有仓库的20.03-LTS分支进行冻结，并配置在冻结期内可以具有合入权限的owners人员列表，则只有这些人员具备合入PR的权限。</li>
 </ul>
