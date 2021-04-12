@@ -63,7 +63,7 @@
 <tbody>
 <tr>
 <td>1.为仓库的协作者提供/close指令关闭issue或者PR<br>2.为作者和协作者提供/reopen指令重新开启一个已关闭的issue</td>
-<td>lifecycle 插件为issue和PR提供了CI-BOT现有功能，此外还提供了<br>生命周期标签以及指令，并将提供配置job跟踪PR和issue的生命周期自动打上对应生命周期标签，并关闭超时的issue或PR</td>
+<td>lifecycle 插件为issue和PR提供了CI-BOT现有功能。<br>（此外还提供了生命周期标签以及指令，并将提供配置job跟踪PR和issue的生命周期自动打上对应生命周期标签，并关闭超时的issue或PR ）</td>
 </tr>
 </tbody>
 </table><h4 id="pr合入">PR合入</h4>
