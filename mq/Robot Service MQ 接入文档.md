@@ -4,7 +4,7 @@
 
 为解决当前机器人服务事件的分发于消费的强关联性以及在极端情况下某一机器人所有实例crash掉造成关注事件永久丢失。接入Kafka后事件整体处理流程如下图所示：
 
-![process](C:\Users\Administrator\Desktop\工作文档\robot-mq.png)
+![process](images/robot-mq.png)
 
 **生产端：**
 
@@ -70,7 +70,7 @@
 
 如下图所示：MQ作为整个机器人服务核心域中的重要组件，需做到隔离变化，依赖抽象。应在接入之初就兼容对不同MQ的切换，每种MQ的不同特性由具体MQ实现去支持。而所有的机器人实现在MQ中的角色应是发布者或订阅者且都依赖Broker抽象层，当切换MQ对应用业务应做到无感知。
 
-![](C:\Users\Administrator\Desktop\工作文档\broker.png)
+![](images/broker.png)
 
 
 
