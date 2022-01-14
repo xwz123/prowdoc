@@ -34,7 +34,7 @@
 
 ##### 接入MQ后的系统架构
 
-![](C:\otherProject\prowdoc\mq\images\sys-overall-ad-sketch.png)
+![](images/sys-overall-ad-sketch.png)
 
 
 
@@ -103,7 +103,7 @@
 
 机器人服务的业务场景中接入MQ出现消息积压以及消息的乱序执行会放大该问题的出现可能，假设如下图场景所示：
 
-![](C:\otherProject\prowdoc\mq\images\cosumer_logic_err.png)
+![](images/cosumer_logic_err.png)
 
  - 同一机器人服务内消息有堆积的场景
 
@@ -159,7 +159,7 @@
 
 #### 方案一：机器人服务即为MQ消费者
 
-![](C:\otherProject\prowdoc\mq\images\robot-mq.png)
+![](images/robot-mq.png)
 
 优势：
 
@@ -176,7 +176,7 @@
 
 #### 方案二：在机器人服务之上加分发层
 
- 架构图一![](C:\otherProject\prowdoc\mq\images\robot-mq2.png)
+ 架构图一![](images/robot-mq2.png)
 
 优势：
 
@@ -194,7 +194,7 @@
 
 架构图二：
 
-![](C:\otherProject\prowdoc\mq\images\robot-mq3.png)
+![](images/robot-mq3.png)
 
 **kafka go 开源库**
 
