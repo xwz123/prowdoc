@@ -2,9 +2,9 @@
 
 ### 企业管理员授权
 
-**接口地址：**https://clasign.osinfra.cn/api/v1/corporation-manager/auth
+**接口地址：** https://clasign.osinfra.cn/api/v1/corporation-manager/auth
 
-**请求方式：**POST
+**请求方式：** POST
 
 **请求参数：**
 
@@ -57,9 +57,9 @@
 
 ### 企业员工管理员列表
 
-**接口地址：**https://clasign.osinfra.cn/api/v1/employee-manager/
+**接口地址：** https://clasign.osinfra.cn/api/v1/employee-manager/
 
-**请求方式：**GET
+**请求方式：** GET
 
 **请求参数：**
 
