@@ -9,7 +9,7 @@
 
 **系统架构图：**
 
-![img](image\async-issue-comment.png)
+![img](image/async-issue-comment.png)
 
 - robot-gitee-courier：负责接收Gitee平台的webhook 并封装成对应的MQ消息并发布到MQ；
 - MQ：kafka 消息队列中间件
