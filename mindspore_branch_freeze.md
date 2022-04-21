@@ -40,7 +40,7 @@ freeze_items:
 | --------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------- |
 | /branch-freeze cancel | 修改PR冻结合入状态，添加 `branch-frozen-mergeable`标签，并移除 `branch-frozen`标签（如果存在）                 | 冻结配置文件中owners |
 | /branch-freeze        | 修改PR冻结合入状态，添加 `branch-frozen`标签，以及添加冻结提示并移除 `branch-frozen-mergeable`标签（如果存在） | 冻结配置文件中owners |
-| /check-freeze         | 手动触发检测PR冻结状态，根据冻结状态添加或移除冻结状态相关标签，主要应对版本冻结解除后感知无事件触发感知配置变化   | 任何人               |
+| /check-freeze         | 手动触发检测PR冻结状态，根据冻结状态添加或移除冻结状态相关标签，主要应对版本冻结解除后无事件触发感知配置变化   | 任何人               |
 
 **评论提示设置**
 
@@ -53,10 +53,15 @@ The target branch of this PR has been frozen. If you want to merge, please invit
 **冻结分支PR检测**
 
 - PR 创建或PR 标签发生变化时
+  
   首先检测PR目标分支已冻结：
+  
   是：如果已经存在 `branch-frozen` 或 `branch-frozen-mergeable` 标签，则不做任何处理。如果不存在 `branch-frozen` 或 `branch-frozen-mergeable` 标签则添加 `branch-frozen` 并添加评论提示。
+  
   否：如果已经存在 `branch-frozen` 或 `branch-frozen-mergeable` 标签，则移除标签。 否则不处理。
+  
 - 使用冻结指令时
+  
   参照指令设置描述。
 
 **PR合入控制**
