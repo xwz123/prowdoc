@@ -66,7 +66,7 @@ The target branch of this PR has been frozen. If you want to merge, please invit
 
 **PR合入控制**
 
-依赖tide先用能力，将 `branch-frozen` 标签加入 missing_labels配置项，则PR包含该标签将不会被合入。
+依赖tide现有能力，将 `branch-frozen` 标签加入 missing_labels配置项，则PR包含该标签将不会被合入。
 
 ##### 方案优缺点
 
