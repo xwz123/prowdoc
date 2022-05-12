@@ -1,5 +1,7 @@
 ## Oauth2-proxy 接入Authing 平台
 
+[oauth2-proxy 项目说明文档](https://github.com/opensourceways/oauth2-proxy#readme)
+
 ### oauth2-proxy 服务端配置
 
 #### 配置文件方式例子：
@@ -9,8 +11,8 @@ http_address="0.0.0.0:30008"
 cookie_secret="OQINaROshtE9TcZkNAm-5Zs2Pv3xaWytBmc5W7sPX7w="
 provider="oidc"
 provider_display_name="authing"
-client_id="6264bbb93e10ebf7a115647a"
-client_secret="99f4fa5fc3f0e73eb47299a018e7c7d0"
+client_id="6264bbb9****f7a115647a"
+client_secret="99f4fa5*****47299a018e7c7d0"
 email_domains="*"
 insecure_oidc_allow_unverified_email=true
 redirect_url="http://119.8.126.102:30008/oauth2/callback"
@@ -20,6 +22,8 @@ session_cookie_minimal=false
 pass_access_token = true
 cookie_secure="false"
 ```
+
+[所有配置项说明文档](https://oauth2-proxy.github.io/oauth2-proxy/docs/configuration/overview)
 
 **当使用命令行参数配置时将下划线改成中划线即可：**
 如：oidc_issuer_url <-----> oidc-issuer-url
