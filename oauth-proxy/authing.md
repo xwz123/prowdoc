@@ -44,7 +44,13 @@ cookie_secure="false"
 
 ### authing 应用授权配置
 
-oauth2-proxy 依赖authing 平台的授权管理，所以需要对应用进行授权访问配置
+**应用配置Oauth2-proxy 服务回调地址**
+
+oauth-proxy 提供的登录回调端点 `scheme://host:port/oauth2/callback`，需在authing 平台自建应用详情中配置认证登录回调地址，如下图所示：
+
+![j](app_callbk.png)
+
+**oauth2-proxy 依赖authing 平台的授权管理，所以需要对应用进行授权访问配置**
 
 进入应用详情，点击访问授权选项卡：
 
