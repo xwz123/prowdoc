@@ -42,6 +42,11 @@ cookie_secure="false"
 
 ![s](authing_app_info.png)
 
+
+**注意：修改应用配置的ID_TOKEN 算法为RS256 如下图所示：**
+
+![id_token](id_token_cfg.png)
+
 ### authing 应用授权配置
 
 **应用配置Oauth2-proxy 服务回调地址**
