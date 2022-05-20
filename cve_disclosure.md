@@ -39,7 +39,7 @@ condh(yes)->ophr->e
 condh(no)->e
 ```
 
-![fi1](image/flow_issue_access.png)
+![](image/flow_issue_access.png)
 
 流程图步骤说明：
 
@@ -86,7 +86,7 @@ condup(yes)->opupy->e
 condup(no)->opupn->e
 ```
 
-![if2](image/disc_proc.png)
+![](image/disc_proc.png)
 
 流程图步骤说明：
 
