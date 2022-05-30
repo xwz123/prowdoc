@@ -126,14 +126,14 @@ condup(no)->opupn->e
   "size":"5",
   "cves":[
    {
-   "id":1
+   "id":1,
    "issue_id":32689,
    "issue_title":"cve-2022-1689",
    "issue_url":"https://gitee.com/src-openeuler/vim/issues/ITY56S",
    "disclosure_status":2,
    "disclosure_xml_path":"/disclosure-cve/disclosure-cve-32689.xml",
-   "disclosure_xml_MD5": "YYISNSHDBSHU898799YUHGGSS==",
-   },
+   "disclosure_xml_MD5": "YYISNSHDBSHU898799YUHGGSS=="
+   }
   ]
 }
 ```
@@ -154,3 +154,14 @@ condup(no)->opupn->e
 
 1. cve是否已发布官网判断
 2. 在导出安全公告时需添加清理提前披露的CVE
+#### 5. SA
+
+1.提供一个接口用于查询cve是否是批露状态供cve-manager使用
+``` 
+    cvedatabase/getCveDisclosureStatus?packageName=php&cveId=CVE-2019-6977
+```
+2.cve-database表新增一个字段用于区分cve是提前批露还是SA导入
+
+3.需要修改当前SA项目中对于数据的插入，从删除变为更新
+
+4.新增可批漏cve文件导入接口，并提供一个定时任务定时导入批露数据
