@@ -157,13 +157,13 @@ condup(no)->opupn->e
 
 #### 5. SA
 
-1.提供一个接口用于查询cve是否是批漏状态共cve-manager使用
+1.提供一个接口用于查询cve是否是批露状态供cve-manager使用
 ``` 
   cvedatabase/getCveDisclosureStatus?packageName=php&cveId=CVE-2019-6977
 ```
 
-2.cve-database表新增一个字段用于区分cve是提前批漏还是SA导入
+2.cve-database表新增一个字段用于区分cve是提前批露还是SA导入
 
 3.需要修改当前SA项目中对于数据的插入，从删除变为更新
 
-4.新增可批漏cve文件导入接口，并提供一个定时任务定时导入批漏数据
+4.新增可批漏cve文件导入接口，并提供一个定时任务定时导入批露数据
